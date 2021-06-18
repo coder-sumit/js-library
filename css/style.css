@@ -1,0 +1,132 @@
+/* css reset */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+h3{
+    font-size: 2rem;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #f54748;
+    color: #ffffff;
+    padding: 14px;
+
+}
+
+.form-box{
+background-color: #deedf0;
+width: 50%;
+margin: 50px auto;
+padding: 20px;
+border-radius: 20px;
+font-size: 1.2rem;
+}
+.form-box h3{
+    color: #850e0e;
+    text-align: center;
+}
+
+.form-box form{
+    width: 80%;
+    margin: 20px auto;
+    /* background-color: rebeccapurple;s */
+}
+.form-box form .sep input{
+   width: 100%;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   outline: none;
+   border: none;
+   border: 2px solid #eee;
+   padding: 5px 0px 5px 15px;
+   font-size: 1.2rem;
+}
+.form-box form .sep2{
+    width: 40%;    
+    margin: 10px auto;
+}
+::placeholder{
+    color: #777;
+    font-size: 1.2rem;
+   
+}
+
+.mybtn{
+    width: 150px;
+    margin-top: 1.3rem;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    outline: none;
+    border: none;
+    background: #f54748;
+    padding: 9px;
+    color: #ffffff;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+/* Styling table  */
+
+table {
+    width: 60%;
+    margin: 40px auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th{
+   border: 1px solid black;
+   padding: 15px;
+   background-color:#fff5eb;
+   
+}
+
+td{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+
+}
+
+/* working on alert */
+  .alert{
+      width: 100%;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+  .alert p{
+      transform: translateX(30px);
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: 900;
+      font-size: 1.2rem;
+  }
+  .alert img{
+      width: 20px;
+      transform: translateX(-30px);
+      cursor: pointer;
+  }
+
+  .success{
+    background: rgba(0, 243, 12, 0.3);
+  }
+  .error{
+    background: rgba(243, 77, 0, 0.3);
+  }
+
+  /* Styling delete btn of table */
+  .delete-btn{
+      width: 25px;
+      cursor: pointer;
+  }

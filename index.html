@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>E Library</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1 class="brand">E Library</h1>
+    </nav>
+    <div id="msgBox"></div>
+    
+    <!-- nav ends -->
+    <!-- add book -->
+    <div class="form-box">
+        <h3>Add Book</h3>
+        <form id="myForm">
+
+            <div class="sep">
+            <input type="text" placeholder="Book Name" id="bookName"> <br>
+            <input type="text" placeholder="Book Author" id="bookAuthor"> <br>
+        </div>
+       <center> <p>Select Book Type</p></center>
+            <div class="sep2">
+        <input type="radio" id="fiction" name="type" value="fiction">
+        <label for="male">Fiction</label><br>
+        <input type="radio" id="programming" name="type" value="programming">
+        <label for="female">Programming</label><br>
+        <input type="radio" id="cooking" name="type" value="cooking">
+        <label for="other">Cooking</label>
+    </div>
+
+    <input class="mybtn" type="submit" value="submit">
+    </form>
+    </div>
+<!-- add book section ends -->
+
+<!-- show books starts -->
+
+<table>
+    <thead>
+        <th>S.No.</th>
+      <th>Book Name</th>
+      <th>Book Author</th>
+      <th>Book Type</th>
+      <th>Delete</th>
+    </thead>
+    <tbody id="tableBody"></tbody>
+  </table>
+
+<!-- <script src="js/app.js"></script> -->
+<script src="js/app_ES6.js"></script>
+</body>
+
+</html>
